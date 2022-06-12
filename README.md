@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Instalar 
+### `npm install -D tailwindcss postcss autoprefixer`
+### `npx tailwindcss init -p`
+
+Editar
+### `tailwind.config.js`
+Agregar
+### `content: ["./src/**/*.{js,jsx,ts,tsx}"],`
+
+Reemplazar contenido de index.css
+### `@tailwind base;`
+### `@tailwind components;`
+### `@tailwind utilities;`
+
+Firebase: Version 9
+### `npm i firebase`
+
+Crear firebase.js
+### `apiKey`
+
+React Router v6
+### `npm install react-router-dom`
